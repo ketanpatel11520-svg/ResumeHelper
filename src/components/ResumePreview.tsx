@@ -51,7 +51,7 @@ export default function ResumePreview({ data, scale }: ResumePreviewProps) {
         {/* HEADING - matches \Huge \scshape name */}
         <div style={{ textAlign: "center", marginBottom: "4pt" }}>
           <div style={{ fontSize: "24pt", fontWeight: 400, fontVariant: "small-caps", letterSpacing: "0.5pt", marginBottom: "1pt" }}>
-            {p.fullName || "KPatel"}
+            {p.fullName || "KPATEL"}
           </div>
           <div style={{ fontSize: "10pt", lineHeight: 1.3 }}>
             {p.phone && (
