@@ -120,11 +120,11 @@ export default function LandingPage() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-white font-display uppercase leading-none max-w-4xl"
         >
-          Synthesize Your <br />
+          {/* Synthesize Your <br />
           <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-purple-650 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(0,240,255,0.15)]">
             Futuristic Career
           </span>
-        </motion.h2>
+        </motion.h2> */}
 
         <motion.p
           initial={{ opacity: 0, y: 15 }}
