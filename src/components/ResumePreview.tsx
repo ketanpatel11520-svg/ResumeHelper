@@ -51,7 +51,7 @@ export default function ResumePreview({ data, scale }: ResumePreviewProps) {
         {/* HEADING - matches \Huge \scshape name */}
         <div style={{ textAlign: "center", marginBottom: "4pt" }}>
           <div style={{ fontSize: "24pt", fontWeight: 400, fontVariant: "small-caps", letterSpacing: "0.5pt", marginBottom: "1pt" }}>
-            {p.fullName || "Ketan Patel"}
+            {p.fullName || "KPatel"}
           </div>
           <div style={{ fontSize: "10pt", lineHeight: 1.3 }}>
             {p.phone && (
@@ -87,7 +87,7 @@ export default function ResumePreview({ data, scale }: ResumePreviewProps) {
             Career Objective
           </div>
           <p style={{ fontSize: "10.5pt", margin: "2pt 0", lineHeight: 1.2 }}>
-            {p.objective || "Motivated computer science student with a strong foundation in analytical thinking, data handling, and technical operations. Experienced in computer systems and communication workflows, seeking to contribute effectively in an entry-level technical or operations role."}
+            {p.objective || "Motivated strong foundation in analytical thinking, data handling, and technical operations. Experienced in computer systems and communication workflows, seeking to contribute effectively in an entry-level technical or operations role."}
           </p>
         </div>
 
